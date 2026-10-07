@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Aereo Test Data</name>
+
+        <Placemark>
+            <name>Test Point</name>
+            <description>Sample point for testing the Geospatial File Measurement API</description>
+
+            <Point>
+                <coordinates>77.5946,12.9716,0</coordinates>
+            </Point>
+        </Placemark>
+
+    </Document>
+</kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Aereo Polygon Test</name>
+
+        <Placemark>
+            <name>Test Survey Plot</name>
+            <description>
+                Sample Polygon for area measurement testing
+            </description>
+
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+
+                        <coordinates>
+                            77.5946,12.9716,0
+                            77.5996,12.9716,0
+                            77.5996,12.9766,0
+                            77.5946,12.9766,0
+                            77.5946,12.9716,0
+                        </coordinates>
+
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+
+    </Document>
+</kml>

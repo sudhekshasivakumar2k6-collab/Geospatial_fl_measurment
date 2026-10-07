@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Aereo Line Test</name>
+
+        <Placemark>
+            <name>Test Survey Line</name>
+            <description>
+                Sample LineString for length measurement testing
+            </description>
+
+            <LineString>
+                <tessellate>1</tessellate>
+
+                <coordinates>
+                    77.5946,12.9716,0
+                    77.6000,12.9750,0
+                    77.6050,12.9800,0
+                </coordinates>
+
+            </LineString>
+        </Placemark>
+
+    </Document>
+</kml>
